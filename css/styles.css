@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-size: 16px;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+
+}
+
+.header{
+    position:relative;
+    background-image: url(../img/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    width:100%;
+    background-attachment: fixed;
+    opacity: 0.85;
+}
+
+
+.header h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+     transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 3rem;
+    background-color: #111;
+    padding:20px;
+}
+
+.showcase{
+    color:#fff;
+}
+
+.img-container1{
+    position: relative;
+    background-image: url(../img/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:400px;
+    width:100%;
+    background-attachment: fixed;
+    opacity: 0.85;
+}
+
+.img-container2{
+    position: relative;
+    background-image: url(../img/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:400px;
+    width:100%;
+    background-attachment: fixed;
+    opacity: 0.85;
+}
+
+
+.footer{
+    position: relative;
+    background-image: url(../img/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    width:100%;
+    background-attachment: fixed;
+    opacity: 0.85;
+ 
+    
+}
+
+.footer h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background-color: #111;
+    padding:20px;
+}
+
+.section1{
+    background-color: #f4f4f4;
+    color: #666;
+    padding:50px 80px;
+    text-align: center;
+}
+
+.section1 h1{
+    margin-bottom: 40px;
+}
+
+.section2{
+    background-color: #282e34;
+    color: #ddd;
+    padding:50px 80px;
+    text-align: center;
+}
+
+.section2 h1{
+    margin-bottom: 40px;
+}
+
+.section3{
+    background-color: #f4f4f4;
+    color: #666;
+    padding:50px 80px;
+    text-align: center;
+}
+.section3 h1{
+    margin-bottom: 40px;
+}
+
+/* .header .img-container1{
+    position: absolute;
+    top:50%;
+    left:50%;
+} */
+
+.text{
+    position: absolute;
+    top:50%;
+    left:50%;
+     transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 3rem;
+   
+}
+
